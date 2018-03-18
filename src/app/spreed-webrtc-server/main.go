@@ -40,15 +40,15 @@ import (
 	"syscall"
 	"time"
 
-	"github.com/strukturag/spreed-webrtc/go/channelling"
-	"github.com/strukturag/spreed-webrtc/go/channelling/api"
-	"github.com/strukturag/spreed-webrtc/go/channelling/server"
-	"github.com/strukturag/spreed-webrtc/go/natsconnection"
+	"github.com/cnjack/spreed-webrtc/go/channelling"
+	"github.com/cnjack/spreed-webrtc/go/channelling/api"
+	"github.com/cnjack/spreed-webrtc/go/channelling/server"
+	"github.com/cnjack/spreed-webrtc/go/natsconnection"
 
+	"github.com/cnjack/httputils"
+	"github.com/cnjack/phoenix"
+	"github.com/cnjack/sloth"
 	"github.com/gorilla/mux"
-	"github.com/strukturag/httputils"
-	"github.com/strukturag/phoenix"
-	"github.com/strukturag/sloth"
 )
 
 var version = "unreleased"

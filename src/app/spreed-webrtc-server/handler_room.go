@@ -24,7 +24,7 @@ package main
 import (
 	"net/http"
 
-	"github.com/strukturag/spreed-webrtc/go/channelling"
+	"github.com/cnjack/spreed-webrtc/go/channelling"
 
 	"github.com/gorilla/mux"
 )

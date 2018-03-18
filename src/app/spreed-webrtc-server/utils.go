@@ -6,7 +6,7 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/strukturag/goacceptlanguageparser"
+	"github.com/cnjack/goacceptlanguageparser"
 )
 
 // Helper to retrieve languages from request.
